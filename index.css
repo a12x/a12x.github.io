@@ -1,0 +1,22 @@
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+.site-header {
+	text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 700px;
+}
