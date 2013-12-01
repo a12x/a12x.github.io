@@ -16,7 +16,7 @@ nav {
 }
 
 nav a {
-font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-decoration: none;
   font-size: 1.25em;
   margin-left: 6px;
@@ -32,5 +32,24 @@ ul {
 
 body {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 650px;
+}
+
+article header h1 {
+  font-size: 3em;
+  font-family: "Georgia";
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
+time {
+  font-family: 'PT Sans', sans-serif;
+  color: #555;
+  font-size: 1.4em;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  line-height: 150%;
 }
