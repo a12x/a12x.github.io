@@ -5,13 +5,27 @@ footer,header,hgroup,menu,nav,section {
 
 .site-header {
 	text-align: center;
+  font-size: 4.5em;
+  font-family: "Georgia";
+  font-weight: normal;
+  margin-bottom: 0px;
 }
 
 nav {
   text-align: center;
 }
 
+nav a {
+font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1.25em;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: black;
+}
+
 ul {
+  margin-top: 4px;
   padding: 0px;
   list-style: none;
 }
