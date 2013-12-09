@@ -17,6 +17,15 @@ body {
   font-size: 4.5em;
 }
 
+.site-link {
+  color: black;
+  text-decoration: none;
+}
+
+.site-link:hover {
+  color: #555;
+}
+
 /* nav */
 
 nav {
