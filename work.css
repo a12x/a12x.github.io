@@ -1,8 +1,8 @@
-.work-background {
+.work-background:nth-child(odd) {
   background-color: #F2F2F2;
 }
 
-.work-background-light {
+.work-background:nth-child(even) {
   background-color: #FCFCFC;
 }
 
