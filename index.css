@@ -1,26 +1,38 @@
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+/* fonts */
+
+h1 {
+  font-family: Constantia, Georgia;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* header */
+
 .site-header {
+  margin-top: 55px;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 4.5em;
-  font-family: "Georgia";
-  font-weight: normal;
-  margin-bottom: 0px;
 }
+
+/* nav */
 
 nav {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 nav a {
-  font-family: 'PT Sans', sans-serif;
   text-decoration: none;
   font-size: 1.25em;
   margin-left: 6px;
   margin-right: 6px;
+  color: #777;
+}
+
+nav a:hover {
   color: black;
 }
 
@@ -30,26 +42,26 @@ ul {
   list-style: none;
 }
 
-body {
-  margin: 0 auto;
-  max-width: 650px;
-}
+/* articles */
 
-article header h1 {
+.article-header {
+  margin-bottom: 13px;
   font-size: 3em;
-  font-family: "Georgia";
   font-weight: normal;
-  margin-bottom: 4px;
 }
 
-time {
-  font-family: 'PT Sans', sans-serif;
+.article-time {
   color: #555;
   font-size: 1.4em;
 }
 
-p {
-  font-family: 'PT Sans', sans-serif;
+.article-paragraph {
   font-size: 1.5em;
+  margin-top: 25px;
   line-height: 150%;
+}
+
+.article-container {
+  max-width: 650px;
+  margin: 0 auto;
 }
