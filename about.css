@@ -1,3 +1,12 @@
 .about-header {
   font-size: 4em;
 }
+
+.email {
+  text-decoration: none;
+  color: #D0021B;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
