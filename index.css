@@ -68,7 +68,7 @@ ul {
   font-size: 1.4em;
 }
 
-.article-paragraph {
+p {
   font-size: 1.5em;
   margin-top: 25px;
   line-height: 150%;
@@ -77,4 +77,5 @@ ul {
 .article-container {
   max-width: 650px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }

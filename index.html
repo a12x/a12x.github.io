@@ -1,9 +1,15 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/css/code.css" />
+    <link rel="stylesheet" href="/css/pygments/monokai.css" />
     <link rel="shortcut icon" href="favicon.png" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="script.js"></script>
@@ -24,18 +30,20 @@
         </li>
       </ul>
     </nav>
-    <article class="article-container">
-      <header>
-        <h1 class="article-header">
-          Blogging
-        </h1>
-        <time datetime="2013-12-1" class="article-time">
-          December 1, 2013
-        </time>
-      </header>
-      <p class="article-paragraph">
-        I've decided to start blogging. I'm a software dev, and I'm planning on posting mostly about stuff I'm working on and anything else I think is interesting. Hopefully you'll find my stuff interesting too.
-      </p>
-    </article>
+    {% for post in site.posts %}
+      <article class="article-container">
+        <header>
+          <h1 class="article-header">
+            {{ post.title }}
+          </h1>
+          <time datetime="{{ post.date }}" class="article-time">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+        </header>
+        <p class="article-paragraph">
+          {{ post.content }}
+        </p>
+      </article>
+    {% endfor %}
   </body>
 </html>
