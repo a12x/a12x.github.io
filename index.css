@@ -1,6 +1,6 @@
 /* fonts */
 
-h1 {
+h1, h2, h3 {
   font-family: Constantia, Georgia;
 }
 
@@ -57,6 +57,15 @@ ul {
 
 /* articles */
 
+ol {
+  list-style-type:decimal;
+  padding: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+
 .article-header {
   margin-bottom: 13px;
   font-size: 4em;
@@ -68,14 +77,34 @@ ul {
   font-size: 1.4em;
 }
 
+h2 {
+  font-size: 2em;
+  margin-top: 25px;
+  color: #D0021B;
+}
+
+article a {
+  color: #D0021B;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
 p {
   font-size: 1.5em;
-  margin-top: 25px;
   line-height: 150%;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .article-container {
   max-width: 650px;
   margin: 0 auto;
   padding-bottom: 60px;
+}
+
+.content-container {
+  padding-top: 20px;
 }

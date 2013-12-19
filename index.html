@@ -40,9 +40,9 @@ title: Your New Jekyll Site
             {{ post.date | date: "%B %-d, %Y" }}
           </time>
         </header>
-        <p class="article-paragraph">
-          {{ post.content }}
-        </p>
+        <div class="content-container">
+        {{ post.content }}
+        </div>
       </article>
     {% endfor %}
   </body>
