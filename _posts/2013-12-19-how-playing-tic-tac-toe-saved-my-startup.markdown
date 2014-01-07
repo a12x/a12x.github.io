@@ -8,7 +8,7 @@ I'm going to teach you how to play tic tac toe! Namely, what the best first move
 
 ##How Will It Work?
 
-It'll be pretty simple. We'll write code that given a board and whos turn it is, calculate how to:
+It'll be pretty simple. We'll write code that given a board and whose turn it is, calculate how to:
 
 1. Win: Complete a line to get three in a row immediately.
 2. Block: Stop the opponent from getting three in a row immediately.
