@@ -47,7 +47,7 @@ const short DIAG_0 = BINARY(100010001);
 const short DIAG_1 = BINARY(001010100);
 {% endhighlight %}
 
-The nice thing about this representation is that its easy to operate on using bit masking. Lets define a few utility functions.
+The nice thing about this representation is that it's easy to operate on using bit masking. Lets define a few utility functions.
 
 {% highlight c++ %}
 // Check if we have a winner!
@@ -199,7 +199,7 @@ short planLosingMoves(short thinkingPlayer, short idlePlayer) {
 
 ##Two Steps Ahead
 
-Now lets do the same thing, except planning two steps ahead! Turns out for tic tac toe, the furthest you ever need to look ahead is by two steps.
+Now let's do the same thing, except planning two steps ahead! Turns out for tic tac toe, the furthest you ever need to look ahead is by two steps.
 
 {% highlight c++ %}
 // now we want perfect moves
@@ -245,7 +245,7 @@ short perfLosingMoves(short thinkingPlayer, short idlePlayer) {
 }
 {% endhighlight %}
 
-Looks good! Now its time to put all these functions to use. Lets see which moves lead to a guaranteed loss in a few situations.
+Looks good! Now it's time to put all these functions to use. Let's see which moves lead to a guaranteed loss in a few situations.
 
 {% highlight c++ %}
 //O's turn
@@ -316,4 +316,4 @@ Running the code gives us the following table.
 
 ##Conclusion
 
-So now you know, if you're ever playing tic tac toe with someone, go for the corners. If they don't know what their doing, odds are they won't move in the center and you'll win for sure! You can grab the full code listing [here](https://gist.github.com/a12x/8038716).
+So now you know, if you're ever playing tic tac toe with someone, go for the corners. If they don't know what they're doing, odds are they won't move in the center and you'll win for sure! You can grab the full code listing [here](https://gist.github.com/a12x/8038716).
