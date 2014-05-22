@@ -1,3 +1,5 @@
 name: Alex Tsang
+description: My blog
+url: http://alextsa.ng
 markdown: redcarpet
 pygments: true
