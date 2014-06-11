@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/css/code.css" />
+    <link rel="stylesheet" href="/css/pygments/monokai.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Alex Tsang</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="site-header">
+        <a href="index.html" class="site-link">Alex Tsang</a>
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="https://github.com/a12x">Github</a>
+        </li>
+      </ul>
+    </nav>
+    <article class="article-container">
+      <header>
+        <h1 class="article-header">
+          {{ page.title }}
+        </h1>
+        <time datetime="{{ post.date }}" class="article-time">
+          {{ page.date | date: "%B %-d, %Y" }}
+        </time>
+      </header>
+      <div class="content-container">
+      {{ content }}
+      </div>
+    </article>
+  </body>
+</html>
