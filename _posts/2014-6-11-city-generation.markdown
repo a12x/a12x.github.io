@@ -42,3 +42,5 @@ Here is how it looks without the debug symbols.
 And finally, here it is rendered in 3d.
 
 <img src="{{ site.url }}/assets/9.png" height=450 style="display: block; margin-left: auto; margin-right: auto"/>
+
+<img src="{{ site.url }}/assets/10.png" height=450 style="display: block; margin-left: auto; margin-right: auto"/>
