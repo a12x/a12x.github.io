@@ -57,6 +57,16 @@ ul {
 
 /* articles */
 
+.article-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-header a:hover {
+  color: #777;
+  text-decoration: underline;
+}
+
 ol {
   list-style-type:decimal;
   padding: 35px;
@@ -90,12 +100,12 @@ h2 {
   color: #D0021B;
 }
 
-article a {
+article .content-container a {
   color: #D0021B;
   text-decoration: none;
 }
 
-article a:hover {
+article .content-container a:hover {
   text-decoration: underline;
 }
 

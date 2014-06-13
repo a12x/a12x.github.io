@@ -32,7 +32,7 @@ layout: default
     <article class="article-container">
       <header>
         <h1 class="article-header">
-          {{ page.title }}
+          <a href="{{ post.url }}">{{ page.title }}</a>
         </h1>
         <time datetime="{{ post.date }}" class="article-time">
           {{ page.date | date: "%B %-d, %Y" }}
